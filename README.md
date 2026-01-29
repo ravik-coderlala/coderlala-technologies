@@ -8,4 +8,3 @@ CoderLala Technologies is a software development company building scalable web a
 - Web Application Development
 - Custom Software Development
 - Startup MVP Development
-- SEO-Friendly Web Solutions
