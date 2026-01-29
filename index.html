@@ -18,26 +18,14 @@
 
   <style>
 
-  /* Logo circle container */
-  .logo-container {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto 20px auto; /* center above heading */
-    border-radius: 50%;       /* circular shape */
-    overflow: hidden;          /* keep logo inside circle */
-    border: 4px solid #fff;   /* optional border */
-    display: flex;
-    align-items: center;
-    justify-content: center;  /* perfectly center the logo */
-    background: #1e40af;      /* optional background */
-  }
-
-  /* Logo inside the circle */
-  .logo-container img {
-    width: 80%;               /* scales logo inside circle */
-    height: 80%;              /* scales logo inside circle */
-    object-fit: contain;      /* ensures entire logo is visible */
+  .circular-logo {
+    width: 120px;             /* set the size */
+    height: 120px;            /* make height equal width */
+    border-radius: 50%;       /* makes it circular */
     display: block;
+    margin: 0 auto 20px auto; /* center above heading */
+    border: 4px solid #fff;   /* optional border */
+    background: #1e40af;      /* optional background color */
   }
     
     body {
@@ -139,7 +127,7 @@
 <header>
   <!-- Logo in Circle -->
   <div class="logo-container">
-    <img src="logo.png" alt="CoderLala Technologies Logo" />
+    <img src="logo.png" alt="CoderLala Technologies Logo" class="circular-logo" />
   </div>
   <h1>CoderLala Technologies</h1>
   <p>
